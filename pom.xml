@@ -50,6 +50,7 @@
             <configuration>
                 <source>1.7</source>
                 <target>1.7</target>
+		<executable>C:\Program Files\jdk-11.0.8\bin\javac</executable>
             </configuration>
         </plugin>
 	<plugin>
