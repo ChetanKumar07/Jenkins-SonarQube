@@ -1,4 +1,4 @@
-# Pull base image.
+Pull base image.
 FROM ubuntu:latest
 
 RUN \
@@ -11,6 +11,6 @@ ADD C:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Jenkins.jenkin
 
 COPY C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\SonarQube-Integration\target\myweb-0.0.7-SNAPSHOT.war /usr/local/webapps/
 
-EXPOSE 8080
+EXPOSE 8090
 
 CMD java -jar myweb-0.0.7-SNAPSHOT.war
